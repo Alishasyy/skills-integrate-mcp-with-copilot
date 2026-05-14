@@ -198,3 +198,24 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+#auth-actions {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#logout-button {
+  background-color: #c62828;
+}
+
+#logout-button:hover {
+  background-color: #b71c1c;
+}
+
+.info-note {
+  color: #0c5460;
+  font-size: 14px;
+  margin-top: 10px;
+}
