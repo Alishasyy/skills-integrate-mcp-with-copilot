@@ -31,6 +31,15 @@ A super simple FastAPI application that allows students to view and sign up for 
 | ------ | ----------------------------------------------------------------- | ------------------------------------------------------------------- |
 | GET    | `/activities`                                                     | Get all activities with their details and current participant count |
 | POST   | `/activities/{activity_name}/signup?email=student@mergington.edu` | Sign up for an activity                                             |
+| POST   | `/auth/login`                                                    | Authenticate a teacher and receive a bearer token                   |
+| POST   | `/auth/logout`                                                   | Log out the current teacher session                                 |
+
+## Teacher Login
+
+The application now supports teacher authentication and role-based unregistering.
+
+- Default teacher username: `teacher1`
+- Default teacher password: `teach123`
 
 ## Data Model
 
